@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	background-color: #E8F2F8;
+	
+}
+
+#wrapper {
+	margin-left: 8%;
+	margin-right: 8%;
+	display: wrap;
+	flex-wrap: nowrap;
+	height: auto;
+	justify-content: space-around;
+	position: relative;
+	width: 1050px;
+	
+}
+
+#headboks {
+	background-color: white;
+	border-bottom: 1px solid #6F6F6F;
+	margin-bottom:  45px;
+	margin-top: none;
+	display: flex;
+	height: 50px;
+	width: 1050px;
+}
+#navn {
+	font-size: 145%;
+	font-weight: 400;
+	background-color: white;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+
+#navn h1 {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#navnboks a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+#navnboks {
+	background-color: white;
+	width: 45%;
+}
+#menuboks {
+	background-color: white;
+	display: flex;
+	width: 50%;
+	padding-top: 12px;
+	margin-left: 26%;
+}
+
+#menuboks li {
+	list-style: none; 		
+	display: inline;
+    width: auto;
+	background-color: white;
+}
+#menuboks ul {
+	background-color: white;
+}
+
+#menuboks a {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 75%;
+}
+
+.menu {
+	padding: auto;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
+
+	
+#logoboks {
+	width: 5%;
+	padding-top: 0px;
+	display: flex;
+	background-color: white;
+}
+
+
+#logo {
+	width: 50px;
+	height: 50px;	
+}
+
+
+footer {
+	clear: both;
+}
+
+
+.footerboks {
+	height: 50px;
+	margin-top: 45px;
+	background-color: #3F3F3F;
+	display: flex;
+	width: 1050px;
+
+} 
+
+.footerlogoboks {
+	background-color: #3F3F3F;
+	display: inline;
+	width: 20%;
+	margin-left: 47.2%;
+	margin-right: 0px;
+	
+}
+
+.footerlogo { /*logo i footeren*/
+	width: 50px;
+	height: 50px;
+}
+
+
+
+.footertextboks {
+	display: inline;
+	margin-left: 20%;
+	margin-top: 15px;
+	background-color: #3F3F3F;
+}
+
+
+.footertext { /*tekst(kontakt) i footer*/
+	background-color: #3F3F3F;
+	font-size: 80%;
+	color: white;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	font-family: "Roboto", sans-serif;
+}
+
+.footerboksfixed {
+	position: fixed;
+	bottom: 8px;
+}
+
+
+
+/*startside*/
+
+#billedeboksall {
+	width: 1050px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.billeder {
+	width: 325px;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+
+/*portfolio*/
+
+
+.portfolio {
+	font-family: "Open Sans", sans-serif;
+	font-size: 100%;
+	padding-left: 40px;
+}
+
+.menuportfolioboks {
+	display: flex;
+	
+}
+
+.menuportfolio {
+	font-family: "Open Sans", sans-serif;
+	font-size: 100%;
+}
+.menuportfolio li {
+	list-style: none; 		
+    width: auto;
+	display: inline;
+	margin-right: 20px;
+	
+}
+
+
+.menuportfolio a {
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 75%;
+	
+}
+
+.portfolioboksbilleder {
+	width: 1050px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.billederportfolio {
+	height: auto;
+	width: 325px;
+}
+	
+/*om mig */
+
+#indholdboks {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: auto;
+	
+}
+
+#ommigboks {
+	width: 50%;
+	height: auto;
+	padding-left: 40px;
+	float: left;
+	
+}
+
+.ommigtext {
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+	font-size: 85%;
+	width: 400px;
+}
+
+
+#portratboks {
+	width: 60%;
+}
+
+#portraet {
+	width: 400px;
+	height: auto;
+	padding-top: 15px;
+}
+
+#jdboks {
+	position: relative;
+	top: 281px;
+	right: 210px;
+}
+
+#jd {
+	width: 100px;
+	height: auto;
+}	
+		
+/*kontakt*/
+
+#email {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 80%;
+	padding-left: 40px;
+}
+
+
+#emailcph {
+	font-family: "Open Sans", sans-serif;
+	font-size: 100%;
+	padding-left: 40px;
+}
